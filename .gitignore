@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+# Local secrets — never commit these
+client_secret.json
+.gmb-mcp-token.json
+.gmb-mcp/
+
+# macOS
+.DS_Store

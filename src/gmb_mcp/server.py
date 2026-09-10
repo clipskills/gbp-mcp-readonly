@@ -15,12 +15,13 @@ READ_TOOLS = (
     "list_locations",
     "get_daily_metrics",
     "get_search_keywords",
-    "list_reviews",
-    "list_posts",
-    "list_media",
-    "list_questions",
-    "profile_health_check",
 )
+WRITE_TOOLS = ()  # Leer lassen!
+AUTH_TOOLS = (
+    "start_oauth",
+    "complete_oauth",
+)
+TOOL_NAMES = READ_TOOLS + WRITE_TOOLS + AUTH_TOOLS
 WRITE_TOOLS = (
     "create_local_post",
     "upload_image_to_drive",

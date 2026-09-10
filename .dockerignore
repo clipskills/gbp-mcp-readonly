@@ -1,0 +1,11 @@
+.venv
+.env
+*.json
+__pycache__
+*.pyc
+.git
+.gitignore
+Dockerfile
+.dockerignore
+README.md
+LICENSE
